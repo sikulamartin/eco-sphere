@@ -67,7 +67,7 @@ const About: React.FC = () => {
           {/* Pravá strana - Timeline 
               z-10 ensures these cards slide OVER the sticky header on mobile
           */}
-          <div className="relative pt-4 z-10 sticky-scroll-section">
+          <div className="relative pt-4 z-10">
             {/* Vertikální čára */}
             <div className="absolute left-4 top-4 bottom-0 w-0.5 bg-gray-200 lg:left-0"></div>
             

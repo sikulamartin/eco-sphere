@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         <div className="absolute inset-0 bg-white/60 md:hidden"></div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 relative z-10 w-full hero-content">
+      <div className="max-w-6xl mx-auto px-6 relative z-10 w-full">
         <div className="max-w-2xl fade-in-section is-visible">
           
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-eco-light/20 text-eco-dark font-bold rounded-full text-sm mb-6 backdrop-blur-sm border border-eco-light/30">

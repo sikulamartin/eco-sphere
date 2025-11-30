@@ -1,7 +1,13 @@
+
 import React, { useEffect } from 'react';
 import Hero from './components/Hero';
+import Partners from './components/Partners';
 import Services from './components/Services';
+import Process from './components/Process';
+import Impact from './components/Impact';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 import Blog from './components/Blog';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
@@ -25,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <main className="min-h-screen flex flex-col">
+    <main className="min-h-screen flex flex-col font-sans">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -48,8 +54,13 @@ function App() {
       {/* Content */}
       <div className="pt-0">
         <Hero />
+        <Partners />
         <Services />
+        <Process />
+        <Impact />
         <About />
+        <Testimonials />
+        <FAQ />
         <Blog />
         <Newsletter />
       </div>
